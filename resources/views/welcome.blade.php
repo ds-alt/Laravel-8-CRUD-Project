@@ -20,8 +20,7 @@
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style1.css" rel="stylesheet">
-
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="antialiased">
@@ -33,10 +32,10 @@
             @auth
                 <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
             @else
-                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
+                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline ">Log in</a>
 
                 @if (Route::has('register'))
-                    <a href="{{ route('register') }}" class="text-sm text-gray-700 underline">Register</a>
+                    <a href="{{ route('register') }}" class=" text-sm text-gray-700 underline">Register</a>
                 @endif
             @endauth
         </div>
@@ -47,7 +46,8 @@
         <img src="img/logo.png">
       </div>
       <div class="row">
-        <h1>Companies Database</h1>
+        <h1>Companies - Database</h1>
+        <h3>Please login ti access </h3>
       </div>
 
   <!-- JavaScript Libraries -->

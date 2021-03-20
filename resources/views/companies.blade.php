@@ -15,7 +15,6 @@
 <div class="row">
 <div class="col-lg-12 margin-tb">
 <div class="pull-left">
-<h2>Companies database</h2>
 <hr>
 </div>
 <div class="pull-right mb-2">

@@ -46,7 +46,7 @@ p {
 
 a {
     color: #f85c37;
-    word-wrap: break-word;        
+    word-wrap: break-word;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -91,7 +91,7 @@ hr {
     text-align: right;
     background-attachment: relative;
     background-position: center center;
-    min-height: 600px;
+    min-height: 550px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -104,31 +104,42 @@ hr {
 }
 
 #headerwrap h1 {
-    margin-top: 150px;
-    color: white;
+    margin-top: 55px;
+    color:rgb(0, 132, 255);
     text-align: center;
-    font-size: 70px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Roboto', serif;
+    font-style: oblique;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 #headerwrap h3 {
-    color: white;
+    color: rgb(0, 132, 255);
+    text-align: center;
     font-size: 30px;
     font-weight: 100;
     font-family: 'Roboto', serif;
     font-style: oblique;
 }
-#headerwrap a {    
-    text-align: right;
-    margin-right: 30px;    
-    margin-top: 10px;
+#headerwrap a {
+    color: rgb(2, 16, 29);
+    font-size: 15px;
+    font-weight: 100px;
+    font-family: 'Roboto', serif;
+    font-style: oblique;
+    margin-right: 30px;
 }
 
 
 #headerwrap .logo {
     text-align: left;
-    margin-left: 60px;
-    margin-top: 10px;
+    margin-left: 50px;
+    margin-top: 0px;
 }
 
 
@@ -229,7 +240,7 @@ hr {
 }
 
 .menu a>i {
-    float: left;
+
     display: inline-block;
     vertical-align: middle;
     text-align: left;
