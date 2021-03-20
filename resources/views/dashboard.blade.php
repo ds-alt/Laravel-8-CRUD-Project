@@ -5,5 +5,6 @@
         </h2>
     </x-slot>
 
+    @include('companies');
 
 </x-app-layout>
