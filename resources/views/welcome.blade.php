@@ -47,7 +47,7 @@
       </div>
       <div class="row">
         <h1>Companies - Database</h1>
-        <h3>Please login ti access </h3>
+        <h3>Log in to your account</h3>
       </div>
 
   <!-- JavaScript Libraries -->
